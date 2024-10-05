@@ -1,0 +1,50 @@
+#header{
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  justify-content: space-between;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.App{
+  width: 600px;
+  padding-top: 30px;
+  margin: auto;
+}
+table{
+  width: 600px;
+}
+input{
+  width: 320px;
+  color: white;
+  background-color: black;
+}
+#root{
+  background-color: rgb(8, 1, 10);
+  color: aliceblue;
+  height: 100vh;
+  margin: 0;
+}
+button{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: aqua;
+}
+
+input thead tr td, tr td{
+  text-align: center;
+}
+
+/* CryptoTable.css */
+
+.negative-price {
+  color: red;
+}
+
+.positive-price {
+  color: green;
+}
